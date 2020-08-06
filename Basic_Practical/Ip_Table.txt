@@ -1,0 +1,23 @@
+- This IP configuration table is based of the private addressing scheme of the
+  RFC 1918. This is an import RFC to understand when building private networks
+  considering it defines the three usable IP ranges for private networks that 
+  are not routable on the internet:
+
+  - 10.0.0.0 - 10.255.255.255.255
+  - 172.16.0.0 - 172.31.255.255
+  - 192.168.0.0 - 192.168.255.255
+
+Hostname	Interface	Ipaddress	Subnet Mask	  Default Gateway
+----------------------------------------------------------------------------------
+Outer		Lo0(Internet)	209.165.200.1	255.255.255.255
+		S0/0/0		172.16.0.1 	255.255.255.252
+
+R1		S0/0/0		172.16.0.2	255.255.255.252	
+		G0/0.10		192.168.10.1	255.255.255.0
+		G0/0.20		192.168.20.1	255.255.255.0
+		G0/0.30		192.168.30.1	255.255.255.0
+#Native Vlan	G0/0.40		192.168.40.1	255.255.255.248	
+
+S1		Int vlan 40	192.168.40.2	255.255.255.248	  192.168.40.1
+
+PC6 (Management PC has static IP) 192.168.40.3  255.255.255.248   192.168.40.1
