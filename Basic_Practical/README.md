@@ -1,5 +1,5 @@
 # Basic Practical
-![alt text](https://github.com/ngimbel64/Networking-Tutorials/blob/master/BasicPractical.png?raw=true)
+![alt text](https://github.com/ngimb64/Networking-Tutorials/blob/master/Basic_Practical/BasicPractical.png?raw=true)
 
 ## Prereqs
 > Cisco Packet Tracer (7.3.0)

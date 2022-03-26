@@ -1,5 +1,5 @@
 # DMZ Setup
-![alt text](https://github.com/ngimb64/Networking-Tutorials/blob/master/DMZSetup.png?raw=true)
+![alt text](https://github.com/ngimb64/Networking-Tutorials/blob/master/DMZ_Setup/DMZSetup.png?raw=true)
 
 ## Prereqs
 Cisco Packet Tracer (7.3.0)
