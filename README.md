@@ -3,9 +3,8 @@
 
 ## Installation
 > After downloading Packet Tracer just simply
-> double click on the EXE and run default install
+> double-click on the EXE and run default install
 
 ## Purpose
-> These networking tutorials are for learning and 
-> advancing networking knowlege and a reflection of
-> what I have learned though my experiences.
+> These networking tutorials are for advancing networking knowledge and a reflection 
+> of what I have learned though my experiences.
